@@ -1,0 +1,33 @@
+2021-04-30 10:18:05.816  INFO 9104 --- [restartedMain] c.a.a.AssessmentManagementApplication    : Starting AssessmentManagementApplication on Sharan with PID 9104 (C:\Users\Lenovo\Downloads\assessment-management (2)\assessment-management\target\classes started by Lenovo in C:\Users\Lenovo\Downloads\assessment-management (2)\assessment-management)
+2021-04-30 10:18:05.826  INFO 9104 --- [restartedMain] c.a.a.AssessmentManagementApplication    : No active profile set, falling back to default profiles: default
+2021-04-30 10:18:05.901  INFO 9104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-30 10:18:05.904  INFO 9104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-30 10:18:07.851  INFO 9104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-30 10:18:07.968  INFO 9104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106ms. Found 6 JPA repository interfaces.
+2021-04-30 10:18:08.969  INFO 9104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-30 10:18:08.987  INFO 9104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-30 10:18:08.988  INFO 9104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2021-04-30 10:18:09.138  INFO 9104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-30 10:18:09.139  INFO 9104 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3233 ms
+2021-04-30 10:18:09.306  INFO 9104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-30 10:18:09.896  INFO 9104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-30 10:18:09.901  INFO 9104 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/assessment?serverTimezone=UTC'
+2021-04-30 10:18:10.183  INFO 9104 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-30 10:18:10.290  INFO 9104 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-30 10:18:10.470  WARN 9104 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-30 10:18:10.508  INFO 9104 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2021-04-30 10:18:10.807  INFO 9104 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-04-30 10:18:11.053  INFO 9104 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-04-30 10:18:12.146  INFO 9104 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-30 10:18:12.155  INFO 9104 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-30 10:18:12.670  INFO 9104 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-04-30 10:18:12.708  INFO 9104 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c6fb9a8, org.springframework.security.web.context.SecurityContextPersistenceFilter@66354f8b, org.springframework.security.web.header.HeaderWriterFilter@74bf9c32, org.springframework.web.filter.CorsFilter@e1574b1, org.springframework.security.web.csrf.CsrfFilter@229b534f, org.springframework.security.web.authentication.logout.LogoutFilter@76bb1343, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@1f19f3b, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@61131c0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7db87a45, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1839b8ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b47eac2, org.springframework.security.web.session.SessionManagementFilter@57fd665c, org.springframework.security.web.access.ExceptionTranslationFilter@3f2e097d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@620b4005]
+2021-04-30 10:18:12.740  INFO 9104 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-30 10:18:13.063  INFO 9104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-30 10:18:13.065  INFO 9104 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-04-30 10:18:13.162  INFO 9104 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-04-30 10:18:13.190  INFO 9104 --- [restartedMain] c.a.a.AssessmentManagementApplication    : Started AssessmentManagementApplication in 8.047 seconds (JVM running for 8.97)
+2021-04-30 10:19:01.540  INFO 9104 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-30 10:19:01.540  INFO 9104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-30 10:19:01.554  INFO 9104 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-04-30 11:04:49.277  WARN 9104 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m39s183ms645µs300ns).
